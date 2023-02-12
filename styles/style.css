@@ -1,0 +1,118 @@
+/* font-family: 'Red Hat Display', sans-serif; */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: hsl(225, 100%, 94%);
+    height: 100Vh;
+}
+.para,
+.cancel-el {
+    color: #212841;
+}
+.hero__img {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.container {
+    max-width: 400px;
+    width: 80%;
+    
+    margin: 5rem auto;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    
+}
+.hero-text {
+    width: 80%;
+    margin: 0 auto;
+}
+.hero-title {
+    font-size: 1.5rem;
+    margin-bottom: .01rem;
+}
+.second-section {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #d0d6e966;
+    display: flex;
+    align-items: center;
+    font-size:  1rem;
+    border-radius: 8px;
+    padding: .8rem  1rem;
+}
+.plan-el {
+    font-weight: 700;
+}
+.change-el {
+    font-size: .8rem;
+}
+.change-el a:hover{
+    text-decoration: none;
+}
+.price-container {
+    margin-right: auto;
+    margin-left: 1rem;
+}
+.music_icon {
+    flex-shrink: 0;
+}
+.price {
+    margin: 0;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+}
+.pay-button {
+    background-color: #352CCA;
+    color: #FFFFFF;
+    padding: .8rem 2rem;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px #352CCA;
+    font-weight: 700;
+    margin: 1.3rem 0 1rem 0;
+    cursor: pointer;
+    
+}
+.cancel-el {
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .second-section {
+        width: 80%;
+        margin: 0 auto;
+        background-color: #d0d6e966;
+        display: flex;
+        align-items: center;
+        font-size: .85em;
+        border-radius: 8px;
+        padding: .8rem 1rem;
+    }
+    .change-el {
+        font-size: .75rem;
+    }
+    img.music_icon {
+        width: 30px;
+    }
+    .cancel-el {
+        font-size: .85em;
+    }
+}

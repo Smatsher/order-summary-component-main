@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -15,23 +19,42 @@
   </style>
 </head>
 <body>
+<main>
+  <article>
+    <div class="container">
+      <img class="hero__img" src="./images/illustration-hero.svg" alt="someone listening to music with a headphone">
+        <section class="hero-text">
+          <h1 class="hero-title">Order Summary</h1>
+          <p class="para">
+            You can now listen to millions of songs, audiobooks, and podcasts on any
+            device anywhere you like!
+          </p>
+        </section>
+      
+        <section class="second-section">
+          <img class="music__icon" src="./images/icon-music.svg" alt="music icon">
+          <div class="price-container">
+            <p class="price plan-el">Annual Plan</p>
+            <p class="para price">$59.99/year</p>
+          </div>
+          <span class="change-el"><a href="#" >Change</a></span>
+        </section>
+      
+        <section class="third-section">
+          <button class="pay-button">Proceed to Payment</button>
+          <a href="#" class="cancel-el">Cancel Order</a>
+        </section>
+    </div>
 
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
+</article>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>.
+      Coded by <a href="#">Smatsher</a>.
+    </div>
+  </footer>
+
+</main>
 </body>
 </html>
